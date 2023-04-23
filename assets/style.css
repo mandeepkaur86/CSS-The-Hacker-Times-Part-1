@@ -15,7 +15,7 @@ nav{
     border-bottom: 1px solid #777;
 }
 
-nav li a{
+nav li {
     color: #777;
 }
 
@@ -25,6 +25,7 @@ h1{
 }
 main h2{
     text-align:left;
+    font-family: Roboto Slab;
 
 }
 h5{
@@ -41,4 +42,32 @@ section
 section{
     display: inline-block;
 
+}
+body{
+    background: #eee;
+}
+.more-artical section{
+    display:inline-block;
+    width: 0%;
+    vertical-align: top;
+    text-align: justify;
+    margin-left: 2.5%;
+
+}
+
+.newspaper-container
+{
+    background-color: white;
+    box-shadow: #ddd;
+    
+}
+main{
+    border-bottom: 1px solid #777; 
+}
+p{
+    font-style: Source Sans Pro;
+    
+}
+div{
+    background-color: white;
 }
